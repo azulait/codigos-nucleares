@@ -1,11 +1,11 @@
-
+import random
 hp1=50
 hp2=50
 turno=0
 
 while hp1>0 and hp2>0:
     if turno % 2==0:
-        import random
+       
         atk=random.randint(2,10)
         hp2-=atk
         print(f"riuk hizo un ataque de {atk} , a ken le quedan {hp2} de vida")
