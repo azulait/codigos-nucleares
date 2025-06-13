@@ -29,6 +29,8 @@ while True:
             for nota in notas:
                  totaln+=nota
             prom=totaln/len(notas)
+            max(notas)
+            min(notas)
             print("el promedio es de ", prom)
         case 5:
             notas.clear()
